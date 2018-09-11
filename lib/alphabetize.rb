@@ -11,8 +11,8 @@ def alphabetize(arr)
     end
   end
   arr.sort_by do |esperanto_word|
-    esperanto_word.split('').collect do |letter|
-      letter_hash[letter]
+    esperanto_word.split('').collect do |letter_seq|
+      letter_hash[letter_seq]
     end
   end
 end
