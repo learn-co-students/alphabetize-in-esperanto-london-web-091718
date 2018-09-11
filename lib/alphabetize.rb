@@ -10,7 +10,6 @@ def alphabetize(arr)
       i+=1
     end
   end
-  puts alphabetti
   arr.sort_by do |esperanto_word|
     esperanto_word.split('').collect do |letter|
       letter_hash[letter]
